@@ -152,7 +152,7 @@ User (dosen)    ───┘                      │
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/username/project-pbf.git
+   git clone https://github.com/AkmalFirmansyah-30/semar-jkb.git
    cd project-pbf
    ```
 
@@ -373,4 +373,10 @@ Proyek ini dikembangkan sebagai tugas mata kuliah **Pemrograman Berbasis Framewo
 
 ## 🤝 Kontributor
 
-Dikembangkan oleh mahasiswa sebagai proyek akhir mata kuliah PBF.
+| Nama | NIM | Peran |
+| ---- | --- | ----- |
+| Akmal Firmansyah | 240202030 | Fullstack Developer |
+
+Dikembangkan sebagai proyek akhir mata kuliah **Pemrograman Berbasis Framework (PBF)**.
+
+🔗 **Repository**: [github.com/AkmalFirmansyah-30/semar-jkb](https://github.com/AkmalFirmansyah-30/semar-jkb)
