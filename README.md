@@ -375,7 +375,7 @@ Proyek ini dikembangkan sebagai tugas mata kuliah **Pemrograman Berbasis Framewo
 
 | Nama | NIM | Peran |
 | ---- | --- | ----- |
-| Akmal Firmansyah | 240202030 | Fullstack Developer |
+| Akmal Firmansyah | 240202001 | Fullstack Developer |
 
 Dikembangkan sebagai proyek akhir mata kuliah **Pemrograman Berbasis Framework (PBF)**.
 
