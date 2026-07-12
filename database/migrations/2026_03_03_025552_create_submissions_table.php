@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('submissions', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('user_id')->constrained('users')->onDelete('cascade'); // ID Mahasiswa
+            $table->foreignId('supervisor_id')->constrained('users'); // ID Dosen Pembimbing
+            $table->enum('type', ['sempro', 'semhas', 'ta']);
+            $table->string('title');
+            $table->string('document_path'); // Tempat simpan file PDF Draf
+            $table->enum('status', ['pending', 'revisi_tu', 'terverifikasi', 'dijadwalkan', 'revisi_dosen', 'lulus'])->default('pending');
+            $table->text('admin_notes')->nullable();
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('submissions');
+    }
+};
